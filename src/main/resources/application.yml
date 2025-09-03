@@ -1,0 +1,9 @@
+spring:
+  application:
+    name : springjwt
+
+jwt:
+  # 비밀키 (반드시 32바이트 이상이어야 함, 실제 운영 환경에서는 환경변수나 외부 설정 파일로 관리)
+  secret: '9e1017040175ec41514bbe886a1a98e8'
+  # AccessToken 만료 시간 (ms 단위, 여기서는 1시간)
+  access-token-expiration: 3600000
